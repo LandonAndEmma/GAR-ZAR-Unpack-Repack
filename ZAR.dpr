@@ -276,9 +276,9 @@ end else
   end;
 end else
     begin
-      Writeln('ZAR Extract\Repack v0.1');
+      Writeln('ZAR Extract\Repack v1.0');
       WriteLn('Specially for Zelda64Rus');
-      Writeln('By TTEMMA, 2015');
+      Writeln('By Landon & Emma, 2022');
       WriteLn('Using:');
       Writeln('      extract: zar.exe file.zar');
       Writeln('      repack : zar.exe file.index <NewNameFile>');
