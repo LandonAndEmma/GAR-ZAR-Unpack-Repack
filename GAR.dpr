@@ -1,4 +1,4 @@
-program GAR;//V0.2
+program GAR;//V1.0
 
 {$APPTYPE CONSOLE}
 
@@ -60,7 +60,7 @@ TFileInfo = record
 SizeFile     : LongWord;
 OffsetName   : LongWord;
 OffsetNameExt: LongWord;
-FileName     : AnsiString;  {размер файла - 4; поинтер на имя файла? - 4; поинтер на имя файла с расширением-4}
+FileName     : AnsiString;  {Г°Г Г§Г¬ГҐГ° ГґГ Г©Г«Г  - 4; ГЇГ®ГЁГ­ГІГҐГ° Г­Г  ГЁГ¬Гї ГґГ Г©Г«Г ? - 4; ГЇГ®ГЁГ­ГІГҐГ° Г­Г  ГЁГ¬Гї ГґГ Г©Г«Г  Г± Г°Г Г±ГёГЁГ°ГҐГ­ГЁГҐГ¬-4}
 end;
 TZar = packed record
 //GAR
@@ -286,7 +286,7 @@ end else
     begin
       Writeln('GAR Extract\Repack v0.2');
       WriteLn('Specially for Zelda64Rus');
-      Writeln('By TTEMMA, 2015');
+      Writeln('By Landon & Emma, 2022');
       WriteLn('Using:');
       Writeln('      extract: gar.exe file.gar');
       Writeln('      repack : gar.exe file.index <NewNameFile>');
