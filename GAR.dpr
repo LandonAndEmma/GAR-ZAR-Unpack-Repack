@@ -284,7 +284,7 @@ end else
   end;
 end else
     begin
-      Writeln('GAR Extract\Repack v0.2');
+      Writeln('GAR Extract\Repack v1.0');
       WriteLn('Specially for Zelda64Rus');
       Writeln('By Landon & Emma, 2022');
       WriteLn('Using:');
